@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #1f2dac;
+}
+
+.block1 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.left,
+.right {
+  margin: 20px;
+  width: 35%;
+  background-color: #305bbb;
+  box-shadow: 0 0 10px;
+  border-radius: 2px;
+}
+
+.fa {
+  color: #2ac2c7;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.title {
+  margin: 20px;
+  color: #fff;
+}
+
+.bars {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  height: 2px;
+  width: 40px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.unactive {
+  height: 2px;
+  width: 40px;
+  background-color: rgb(97, 94, 95);
+}
+
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.movie img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.movies h3 {
+  color: #1eb4c8;
+}
+
+
+.movie-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-text img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.movie-text h2 {
+    color: #1eb4c8;
+}
+
+.movie-text p {
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin: 10px;
+}
+
+.movie-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/movie-1.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.time {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.buy button {
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 2px solid white;
+  color: #1eb4c8;
+}
+
+.buy p {
+  color: #fff;
+  border: 2px solid #4ffc23;
+  padding: 10px;
+  border-radius: 20px;
+}
