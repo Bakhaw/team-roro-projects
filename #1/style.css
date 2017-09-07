@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(177, 177, 177);
+}
+
+.block1 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.left,
+.right {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  margin: 20px;
+}
+
+.top-menu-left {
+  display: flex;
+  justify-content: space-around;
+}
+
+.active,
+.unactive {
+  width: 50%;
+  padding: 10px;
+}
+
+.active {
+  border-bottom: 2px solid rgb(33, 213, 37);
+}
+
+.unactive {
+  color: rgb(103, 106, 105);
+}
+
+.food-list div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.food-list img {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(54, 51, 51, 0.55) 0%), url(images/food-list-1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.bot-menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-menu h4,
+.bot-menu p {
+  margin-top: 15px;
+}
+
+.bot-menu h2 {
+  font-size: 31px;
+}
+
+.bot-menu p {
+  font-size: 20px;
+  line-height: 40px;
+}
