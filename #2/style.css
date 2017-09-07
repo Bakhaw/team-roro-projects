@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: rgb(170, 207, 199);
+}
+
+.block1 {
+  display: flex;
+  align-items: flex-end;
+  width: 70%;
+  margin: auto;
+}
+
+.left,
+.right {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.left {
+  height: 600px;
+  background-color: #fff;
+  box-shadow: 3px 3px 15px;
+}
+
+.right {
+  height: 550px;
+  background-color: #fff;
+  box-shadow: 3px 3px 15px;
+}
+
+.fa {
+  color: #c5b8c7;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.days {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#unactive {
+  color: #c5b8c7;
+}
+
+#active {
+  color: #1f8dd1;
+}
+
+.deadlines {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.red,
+.purple {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #000;
+}
+
+.base-bar {
+  background-color: #a7acaa;
+  height: 15px;
+  margin: 10px;
+  width: 95%;
+  border-radius: 20px;
+}
+
+.red-bar {
+  background-color: #ff0017;
+  height: 15px;
+  border-radius: 20px;
+  width: 50%;
+  margin: left;
+}
+
+.purple-bar {
+  background-color: #92099e;
+  height: 15px;
+  border-radius: 20px;
+  width: 26%;
+  margin: left;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.top-menu h2 {
+  margin: 20px;
+  font-size: 18px;
+  color: #c5b8c7;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.group p {
+  border: 2px solid #197bcb;
+  background-color: #197bcb;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.comment {
+  margin-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  border: 2px solid #c5b8c7;
+}
+
+.family-group {
+  margin-left: 20px;
+}
+
+.family-group h3 {
+  color: #c5b8c7;
+}
+
+.first-comment {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.first-comment img {
+  width: 20%;
+  height: 20%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile h3 {
+  margin-left: 10px;
+}
+
+.answer {
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #26ccc7;
+}
