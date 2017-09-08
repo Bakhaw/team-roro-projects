@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .block1 {
   background-color: #0a1861;
   height: 100vh;
